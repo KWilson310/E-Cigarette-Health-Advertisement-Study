@@ -1,0 +1,32 @@
+---
+title: "e_cigarette_data"
+author: "Elizabeth Greenan"
+date: "2026-03-28"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+The below code uses the haven library to read the XPT file.
+
+```{r}
+
+library(haven)
+
+e_cig_data <- read_xpt("data/LLCP2024.XPT ")
+
+head(e_cig_data)
+
+```
+
+The next chunk of code writes this as a CSV file. I included the row.names = False
+
+```{r}
+
+write.csv(e_cig_data, "data/LLCP2024.csv", row.names = FALSE)
+
+```
