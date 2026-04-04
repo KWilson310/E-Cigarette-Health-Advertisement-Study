@@ -3,7 +3,7 @@ Our team is analyzing whether an individual is more likely to use an e-cigarette
 
 Title: E-Cigarette and Healthy Habits Study
 
-Background: Using data provided from the CDC, we plan to evaluate how likely an individual is to use an e-cigarette based on their lifestyle..
+Background: Using data provided from the CDC, we plan to evaluate how likely an individual is to use an e-cigarette based on their lifestyle.
 
 Question: Are those with healthier lifestyles less likely to use e-cigarettes than those who may have less healthy lifestyles?
 
