@@ -1,10 +1,12 @@
 # E-Cigarette-Health-Advertisement-Study
-Our team is analyzing whether advertisments of the negative health effects of E-cigarettes is effecting the use of the products.
+Our team is analyzing whether an individual is more likely to use an e-cigarette based on their lifestyle.
 
-Title: E-Cigarette Health Advertisement Study
+Title: E-Cigarette and Healthy Habits Study
 
-Background: Using data provided from the CDC, we plan to evaluate how advertisments on the negative health effects of e-cigrattes have effected consumption among different population groups.
+Background: Using data provided from the CDC, we plan to evaluate how likely an individual is to use an e-cigarette based on their lifestyle..
 
-Question: How have advertisments involving the negative health impacts of e-cigrattes impacted the consumption of the product?
+Question: Are those with healthier lifestyles less likely to use e-cigarettes than those who may have less healthy lifestyles?
 
-Hypothesis: It is our belief that these avertisements will have a measurable effect in decreasing the usage of e-cigrattes, but only in populations who have demonstrated other healthy behaviors. Those who have not, likely do not prioritize their health and therefore will be far less likely to change their behavior when informed on negative health effects of a product they consume.
+Hypothesis: We hypothesize a predictive model for e-cigarette usage can be built using health and lifestyle data because unhealthy habits frequently co-occur.
+
+Prediction: We predict that those with healthier living habits may be less likely to use e-cigarettes due to their desire to live the healthiest lifestyle.
