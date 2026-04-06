@@ -1,4 +1,4 @@
-# E-Cigarette-Health-Advertisement-Study
+# E-Cigarette-and-Healthy-Habits-Study
 Our team is analyzing whether an individual is more likely to use an e-cigarette based on their lifestyle.
 
 Title: E-Cigarette and Healthy Habits Study
