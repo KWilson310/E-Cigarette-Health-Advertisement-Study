@@ -5,22 +5,35 @@ Dentist_Visit_Last_Year,,"5,706",1.25
 Health_Insurance,1.0,"413,720",90.4
 Health_Insurance,0.0,"25,406",5.55
 Health_Insurance,,"18,544",4.05
+Lung_Cancer_Suspected_Risk,,"285,111",62.3
+Lung_Cancer_Suspected_Risk,0.0,"133,104",29.08
+Lung_Cancer_Suspected_Risk,1.0,"39,455",8.62
 Medical_Visit_Missed_Due_to_Cost,0.0,"412,634",90.16
 Medical_Visit_Missed_Due_to_Cost,1.0,"43,363",9.47
 Medical_Visit_Missed_Due_to_Cost,,"1,673",0.37
+High_Financial_Stress_Burden,,"256,223",55.98
+High_Financial_Stress_Burden,0.0,"182,709",39.92
+High_Financial_Stress_Burden,1.0,"18,738",4.09
+Sex,Female,"240,183",52.48
+Sex,Male,"217,487",47.52
+Has_Disability,0.0,"293,295",64.08
+Has_Disability,1.0,"140,484",30.7
+Has_Disability,,"23,891",5.22
+Diabetic_History,,"225,123",49.19
+Diabetic_History,0.0,"129,995",28.4
+Diabetic_History,1.0,"102,552",22.41
+Days_Poor_Mental_Health,0_Days,"269,909",58.97
+Days_Poor_Mental_Health,1-13_Days,"117,290",25.63
+Days_Poor_Mental_Health,14+_Days,"62,315",13.62
+Days_Poor_Mental_Health,Unknown,"8,156",1.78
 Age_Category,Elderly,"214,421",46.85
 Age_Category,Middle_Aged,"126,501",27.64
 Age_Category,Young_Adult,"108,438",23.69
 Age_Category,Unknown,"8,310",1.82
-E_Cig_User,0.0,"400,413",87.49
-E_Cig_User,,"32,751",7.16
-E_Cig_User,1.0,"24,506",5.35
 Other_Tobacco_Usage,Not at all,"414,356",90.54
 Other_Tobacco_Usage,Unknown,"30,657",6.7
 Other_Tobacco_Usage,Every Day,"7,367",1.61
 Other_Tobacco_Usage,Some days,"5,290",1.16
-Sex,Female,"240,183",52.48
-Sex,Male,"217,487",47.52
 Race,White,"329,346",71.96
 Race,Hispanic,"48,646",10.63
 Race,Black,"35,172",7.69
@@ -29,7 +42,7 @@ Race,Multiracial,"10,486",2.29
 Race,Unknown,"9,103",1.99
 Race,American Indian or Alaskan Native,"6,460",1.41
 Race,Other Race,"3,737",0.82
-Race,Native American or other Pacific Islander,"2,074",0.45
+Race,Native Hawaiian or other Pacific Islander,"2,074",0.45
 Time_Since_Last_Check_Up,Within_the_last_year,"370,023",80.85
 Time_Since_Last_Check_Up,Within_the_past_two_years,"39,655",8.66
 Time_Since_Last_Check_Up,Within_the_past_five_years,"21,480",4.69
@@ -48,10 +61,6 @@ Loneliness,Always,"5,064",1.11
 Health_Rating,Good_or_Better_Health,"366,237",80.02
 Health_Rating,Fair_or_Poor_Health,"90,123",19.69
 Health_Rating,Unknown,"1,310",0.29
-Prediabetic_Diagnosis,Unknown,"299,317",65.4
-Prediabetic_Diagnosis,No,"131,009",28.63
-Prediabetic_Diagnosis,Yes,"25,796",5.64
-Prediabetic_Diagnosis,Yes_during_Pregnancy,"1,548",0.34
 Annual_Income,Unknown,"87,423",19.1
 Annual_Income,"Less_than_$75,000","60,709",13.26
 Annual_Income,"Less_than_$150,000","55,778",12.19
@@ -99,3 +108,6 @@ Marital_Status,Widowed,"49,161",10.74
 Marital_Status,Member_of_unmarried_couple,"21,754",4.75
 Marital_Status,Separated,"9,462",2.07
 Marital_Status,Unknown,"4,222",0.92
+E_Cig_User,0.0,"400,413",87.49
+E_Cig_User,,"32,751",7.16
+E_Cig_User,1.0,"24,506",5.35
