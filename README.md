@@ -35,9 +35,39 @@ There are several predictor variables used for this analysis. They are categoriz
 ### Imputation
 Multivariate Imputation by Chained Equations (MICE) was the imputation method chosen.
 
+### Pre-Processing & Feature Engineering
+Data was split into training and test sets. The ideal ratio was found and implemented. Additionally, one-hot encoding was used to transform all categorical variables to numeric, and scaling was performed.
+
 ### Models
-Elastic Net Logistic Regression with Ridge (unsupervised), Elastic Net Logisitc Regression with Lasso (supervised), and Random Forest will be the models used for this analysis. They will be trained on the cleaned, imputed, one-hot encoded, and scaled training dataset.
+Elastic Net Logistic Regression with Ridge (unsupervised), Elastic Net Logistic Regression with Lasso (supervised), and Random Forest will be the models used for this analysis. They will be trained on the cleaned, imputed, one-hot encoded, and scaled training dataset.
 
 ### Model Performance
 When testing model performance, the imputed test set will be used and metrics such as precision, recall, F1-Score, and ROC curves will be used to analyze results and model performance.
 
+## Coding Languages and Required Libraries
+R was used to write the original dataset to a CSV file. The remaining cleaning, pre-processing, and modeling was conducted in Python.
+
+Required R libraries include:
+* haven
+  
+Required Python libraries include:
+* pandas
+* numpy
+* seaborn
+* scipy
+* matplotlib
+* openpyxl
+* tableone
+* tabulate
+* scikit-learn
+
+## Custom Functions
+No custom functions have been created at this time.
+
+## Steps to Run the Project
+* Download the 2024 BRFSS dataset and run the e_cigarette_data.Rmd script to create a CSV file
+* Run the Cleaned_Data.ipynb script to clean data. Updated field names can be found in this script
+* Run the Tables_and_Graphs_EDA.ipynb script to perform EDA and create statistical tables for categorical and continuous variables
+* Run the Pre-Processing.ipynb script to perform pre-processing steps such as training and test set split, MICE imputation, one-hot encoding, and scaling
+* Run Elastic Net script
+* Run Random Forest script
