@@ -71,5 +71,8 @@ No custom functions have been created at this time.
 * Run the 3_Data_Cleaning.ipynb script to clean data. Updated field names can be found in this script.
 * Run the 4_Tables_and_Graphs_EDA.ipynb script to perform EDA and create statistical tables for categorical and continuous variables.
 * Run the 5_Pre-Processing.ipynb script to perform pre-processing steps such as training and test set split, MICE imputation, one-hot encoding, and scaling.
-* Run the 6_Elastic_Net_Logistic_Regression_Lasso_Dimension_Reduction.ipynb
-* Run the Random Forest script.
+* Run the 6_Elastic_Net_Logistic_Regression_Lasso_Dimension_Reduction.ipynb script to perform the dimension reduction steps.
+* Run the 7_Elastic_Net_Logistic_Regression_Baseline_Lasso_Ridge.ipynb script to perform the baseline Elastic Net model.
+* Run the 8_Random_Forest_Model.ipynb script to perform the baseline Random Forest model.
+* Run the 9_Elastic_Net_Logistic_Regression_Baseline_Lasso_Ridge_SMOTE.ipynb to perform the baseline Elastic Net model with SMOTE applied.
+* Run the 10_Random_Forest_Model_SMOTE.ipynb to perform the Random Forest model with SMOTE and hyperparameter tuning applied.
