@@ -75,7 +75,7 @@ Required Python Packages include:
 * scikit-learn
 
 ## Custom Functions
-The pipeline custom function was used in the Elastic Net models.
+A custom function called no_duplicate_columns was created in the Data Cleaning script and ensured that no data columns were accidentally duplicated. Additionally, the pipeline custom function was used in the Elastic Net models.
 
 ## Steps to Run the Project
 * Files in the Scripts folder are numbered, representing the order in which they should be run.
